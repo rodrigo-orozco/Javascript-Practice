@@ -19,7 +19,7 @@ const oneDown = threeArr.pop();
 console.log(threeArr);
 console.log(oneDown);
 
-// shift() removes the last element of the array and returns it
+// shift() removes the first element of the array and returns it
 
 const ourArray = ["Stipmson", "J", ["cat"]];
 const removedFromOurArray = ourArray.shift();
