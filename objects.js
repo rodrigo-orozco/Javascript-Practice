@@ -37,3 +37,42 @@ drink = testObj["the drink"];
 console.log(entree);
 console.log(side);
 console.log(drink);
+
+// Accesing object properties with Variabls
+
+const dogs = {
+    Fide: "Mutt",
+    Hunter: "Doberman",
+    Snoopie: "Beagle"
+};
+
+const myDoggie = "Hunter";
+const myBreed = dogs[myDoggie];
+
+console.log(myBreed);
+
+// Updating Object Properties
+
+const ourDog = {
+    "name": "Camper",
+    "legs": 4,
+    "tails": 1,
+    "friends": ["everyone!"]
+};
+
+console.log(ourDog.name);
+ourDog.name = "Happy Camper";
+console.log(ourDog.name);
+ourDog["name"] = "Happy"
+console.log(ourDog.name);
+
+//Add properties to an object
+
+ourDog.bark = "woof";
+
+// Deleting properties of an object
+
+delete ourDog.bark;
+
+
+
